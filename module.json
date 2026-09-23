@@ -1,0 +1,53 @@
+{
+  "id": "itempilesdnd5e",
+  "title": "LipatoS - Item Piles: D&D 5e",
+  "description": "Адаптер D&D 5e для Item Piles. Добавляет системную интеграцию валюты, цен, контейнеров, фильтров предметов и других механик D&D5e для сборки LipatoS - Item Piles.",
+  "version": "1.1.0",
+  "library": false,
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14",
+    "maximum": "14"
+  },
+  "authors": [
+    {
+      "name": "LipatoS"
+    },
+    {
+      "name": "Wasp — оригинальный Item Piles: D&D 5e",
+      "url": "https://github.com/Haxxer",
+      "discord": "Wasp#2005"
+    }
+  ],
+  "esmodules": [
+    "dist/module.js"
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "5.0.0",
+          "verified": "6.0.5"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "item-piles",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/Lipatosha/LipatoS-item-piles/main/module.json",
+        "compatibility": {
+          "minimum": "3.3.4-rub-fix46",
+          "verified": "3.3.4-rub-fix47"
+        }
+      }
+    ]
+  },
+  "url": "https://github.com/Lipatosha/LipatoS-item-piles-dnd5e",
+  "manifest": "https://raw.githubusercontent.com/Lipatosha/LipatoS-item-piles-dnd5e/main/module.json",
+  "download": "https://raw.githubusercontent.com/Lipatosha/LipatoS-item-piles-dnd5e/main/lipatos-item-piles-dnd5e-v1.1.0.zip",
+  "readme": "https://github.com/Lipatosha/LipatoS-item-piles-dnd5e/blob/main/README.md",
+  "bugs": "https://github.com/Lipatosha/LipatoS-item-piles-dnd5e/issues"
+}
